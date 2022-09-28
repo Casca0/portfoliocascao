@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/portfoliocascao/static/js/main.32771e2f.js",
+    "main.js": "/portfoliocascao/static/js/main.5e9f681d.js",
     "index.html": "/portfoliocascao/index.html",
-    "main.32771e2f.js.map": "/portfoliocascao/static/js/main.32771e2f.js.map"
+    "main.5e9f681d.js.map": "/portfoliocascao/static/js/main.5e9f681d.js.map"
   },
   "entrypoints": [
-    "static/js/main.32771e2f.js"
+    "static/js/main.5e9f681d.js"
   ]
 }
