@@ -12,4 +12,4 @@ Usando principalmente [`styled-components`](https://www.styled-components.com/).
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lucashborzani@gmail.com)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/55011933357417)
 
-**O portfólio ainda está em uma fase inicial e ainda estarei trabalhando nele nos próximos dias!**
+**O portfólio está em uma fase inicial e estarei trabalhando nele nos próximos dias!**
