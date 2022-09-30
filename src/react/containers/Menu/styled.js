@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import rem from "../../functions/rem";
 
-export const AboutMeWrapper = styled.div`
+export const MenuWrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -14,14 +14,14 @@ export const AboutMeWrapper = styled.div`
 	box-shadow: 0 0 20px 5px #4B666B;
 `;
 
-export const AboutMeImage = styled.img`
+export const MenuImage = styled.img`
 	width: ${rem(150)};
 	height: ${rem(150)};
 	border-radius: 50%;
 	box-shadow: 0 0 5px #fff;
 `;
 
-export const AboutMeName = styled.span`
+export const MenuName = styled.span`
 	width: max-content;
 	height: max-content;
 	background: #4D3A81;
@@ -29,17 +29,19 @@ export const AboutMeName = styled.span`
 	font-weight: 500;
 	font-size: ${rem(17)};
 	cursor: default;
+	text-decoration: underline 1px #fff;
 `;
 
-export const AboutMeContent = styled.span`
-	width: max-content;
+export const MenuContent = styled.span`
+	text-align: center;
 	height: max-content;
 	background: #4D3A81;
 	cursor: default;
 `;
 
 
-export const AboutMeNav = styled.nav`
+export const MenuNav = styled.nav`
+	margin-top: 15px;
 	ul {
 		list-style: none;
 		background: #4D3A81;

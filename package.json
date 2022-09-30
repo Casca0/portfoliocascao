@@ -1,7 +1,7 @@
 {
   "name": "portfoliocascao",
   "version": "0.1.0",
-	"homepage": "https://www.casca0.github.io/portfoliocascao",
+  "homepage": "https://www.casca0.github.io/portfoliocascao",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -15,8 +15,8 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build",		
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -42,5 +42,10 @@
   },
   "resolutions": {
     "styled-components": "^5"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/Casca0/portfoliocascao.git",
+  "author": "Casca0 <lucashborzani@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {}
 }

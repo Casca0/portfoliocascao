@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
 
 	body {
 		height: 100%;
-		background: linear-gradient(#2F3939, #1E2852, #182141, #2F3939) fixed;
+		background: linear-gradient(#2F3939, #1E2852, #182141) fixed;
 		margin: 0;
 		user-select: none;
 	}

@@ -1,7 +1,7 @@
 import React, { useState, createContext } from "react";
 import GlobalStyle from "./styled";
 
-import AboutMe from "../containers/AboutMe";
+import Menu from "../containers/Menu";
 import MainContent from "../containers/MainContent";
 
 export const PageContext = createContext({});
@@ -12,7 +12,7 @@ const App = () => {
 	return (
 		<PageContext.Provider value={{page, setPage}}>
 			<GlobalStyle />
-			<AboutMe />
+			<Menu />
 			<MainContent />
 		</PageContext.Provider>
 	)
