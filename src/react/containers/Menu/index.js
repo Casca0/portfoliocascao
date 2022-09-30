@@ -1,20 +1,38 @@
-import React, { useContext } from "react";
-import { PageContext } from "../../pages/app.js";
+import React, { useContext, useEffect, useState } from "react";
+import { PageContext, ResponsiveContext } from "../../pages/app.js";
 
 import * as S from './styled.js';
+
+import fotoPerfil from '../../public/fotoPerfil.jpeg';
 
 const Menu = () => {
 
 	const { page, setPage } = useContext(PageContext);
+	const { isMobile } = useContext(ResponsiveContext)
+
+	const [ style, setStyle ] = useState({});
 
 	const selectedStyle = {
 		background: '#1A2653',
 		boxShadow: '0 0 5px 2px #fff',
 	}
 
+
+	useEffect(() => {
+		if (isMobile && page !== '') {
+			setStyle({
+				display: 'none',
+			})
+		} else {
+			setStyle({
+				display: 'flex',
+			})
+		}
+	}, [isMobile, page]);
+
 	return (
-		<S.MenuWrapper>
-			<S.MenuImage src="https://pps.whatsapp.net/v/t61.24694-24/295170978_164008842947898_457714406726257586_n.jpg?ccb=11-4&oh=01_AVy2ks2e6q3cnTBp5mde2WZqKz_YgG8DNFLfteNAuJGP4w&oe=6341BFB5" alt="Foto de perfil" title="Foto de perfil"/>
+		<S.MenuWrapper style={style}>
+			<S.MenuImage src={fotoPerfil} alt="Foto de perfil" title="Foto de perfil"/>
 			<S.MenuName>Seja Bem-vindo(a)!</S.MenuName>
 			<br />
 			<S.MenuContent>Me chamo Lucas, e esse é meu portfólio!</S.MenuContent>

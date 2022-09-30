@@ -7,6 +7,9 @@ export const MainWrapper = styled.main`
 	background: #4D3A81;
 	border-radius: 5px;
 	transition: all 0.2s ease-in;
+	@media (max-width: 768px) {
+		height: 100%;
+	}
 `;
 
 export const CloseButton = styled.button`
@@ -22,6 +25,10 @@ export const CloseButton = styled.button`
 	:hover {
 		box-shadow: 0 0 5px 2px #fff;
 	}
+	@media (max-width: 789px) {
+		right: ${rem(40)};
+		top: ${rem(70)};
+	}
 `;
 
 export const CloseButtonIcon = styled.img`
@@ -29,4 +36,8 @@ export const CloseButtonIcon = styled.img`
 	height: ${rem(30)};
 	display: block;
 	margin: auto;
+	@media (max-width: 789px) {
+		width: ${rem(40)};
+		height: ${rem(40)};
+	}
 `;

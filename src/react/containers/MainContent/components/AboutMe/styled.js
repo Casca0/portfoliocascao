@@ -16,10 +16,17 @@ export const AboutMeWrapper = styled.section`
 		background: #784284;
 		border-radius: 10px;
 	}
+	@media (max-width: 789px) {
+		height: ${rem(780)};
+	}
 `;
 
 export const AboutMeTitle = styled.h2`
 	text-decoration: underline #fff 1px;
+	@media (max-width: 789px) {
+		margin-top: 40px;
+		font-size: ${rem(24)};
+	}
 `;
 
 export const AboutMeContent = styled.p`
@@ -27,4 +34,7 @@ export const AboutMeContent = styled.p`
 	font-size: ${rem(17)};
 	text-align: justify;
 	margin: 10px 10px;
+	@media (max-width: 789px) {
+		font-size: ${rem(20)};
+	}
 `;

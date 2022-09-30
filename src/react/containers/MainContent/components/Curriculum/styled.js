@@ -20,15 +20,32 @@ export const CurriculumWrapper = styled.section`
 		li {
 			width: max-content;
 			margin-top: 15px;
+			@media (max-width: 789px) {
+				width: 300px;
+				font-size: ${rem(20)};
+			}
 		}
-		caption {
-			width: max-content;
+		p {
+			margin: 0;
+			@media (max-width: 789px) {
+				font-size: ${rem(17)};
+			}
 		}
+		@media (max-width: 789px) {
+			padding-left: 25px;
+		}
+	}
+	@media (max-width: 789px) {
+		height: ${rem(780)};
 	}
 `;
 
 export const CurriculumTitle = styled.h2`
 	text-decoration: underline #fff 1px;
+	@media (max-width: 789px) {
+		margin-top: 40px;
+		font-size: ${rem(24)};
+	}
 `;
 
 export const CurriculumContent = styled.p`
@@ -36,6 +53,9 @@ export const CurriculumContent = styled.p`
 	font-size: ${rem(16)};
 	text-align: justify;
 	margin: 10px 10px;
+	@media (max-width: 789px) {
+		font-size: ${rem(20)};
+	}
 `;
 
 export const CurriculumDownload = styled.a`
@@ -53,5 +73,8 @@ export const CurriculumDownload = styled.a`
 	:hover {
 		background: #1A2653;
 		box-shadow: 0 0 5px 2px #fff;
+	}
+	@media (max-width: 789px) {
+		font-size: ${rem(20)};
 	}
 `;

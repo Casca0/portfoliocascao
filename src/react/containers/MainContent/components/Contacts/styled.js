@@ -16,10 +16,18 @@ export const ContactsWrapper = styled.section`
 		background: #784284;
 		border-radius: 10px;
 	}
+	@media (max-width: 789px) {
+		min-height: ${rem(530)};
+		max-height: ${rem(780)}
+	}
 `;
 
 export const ContactsTitle = styled.h2`
 	text-decoration: underline #fff 1px;
+	@media (max-width: 789px) {
+		margin-top: 40px;
+		font-size: ${rem(24)};
+	}
 `;
 
 export const ContactsContent = styled.p`
@@ -27,10 +35,18 @@ export const ContactsContent = styled.p`
 	font-size: ${rem(16)};
 	text-align: justify;
 	margin: 10px 10px;
+	@media (max-width: 789px) {
+		font-size: ${rem(20)};
+	}
 `;
 
 export const ContactsButtonWrapper = styled.div`
 	display: flex;
+	flex-wrap: wrap;
+	@media (max-width: 789px) {
+		flex-direction: column;
+		align-items: center;
+	}
 `;
 
 export const ContactsButton = styled.a`
@@ -39,7 +55,7 @@ export const ContactsButton = styled.a`
 	background: #4D3A81;
 	border-radius: 5px;
 	border: 2px solid;
-	margin: 10px;
+	margin: 15px;
 	padding: 10px 15px;
 	cursor: pointer;
 	transition: 0.3s;
@@ -71,6 +87,9 @@ export const ContactsButton = styled.a`
 		:hover{
 			background: #25D366;
 		}
+	}
+	@media (max-width: 789px) {
+		font-size: ${rem(20)};
 	}
 `;
 

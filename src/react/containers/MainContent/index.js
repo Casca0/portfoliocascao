@@ -1,5 +1,5 @@
-import React, { useContext } from "react";
-import { PageContext } from "../../pages/app.js";
+import React, { useContext, useEffect, useState } from "react";
+import { PageContext, ResponsiveContext } from "../../pages/app.js";
 import rem from "../../functions/rem.js";
 
 import * as S from './styled.js';
@@ -11,13 +11,26 @@ import closeIcon from "../../public/closeIcon.svg"
 
 const MainContent = () => {
 	const { page, setPage } = useContext(PageContext);
+	const { isMobile } = useContext(ResponsiveContext);
 
-	const wrapperStyle = {
-		marginLeft: page !== '' ? rem(20) : 0,
-		padding: page !== '' ? rem(15) : 0,
-		width: page !== '' ? rem(800) : 0,
-		boxShadow: page !== '' ? "0 0 15px 5px #4B666B" : "none",
-	};
+	const [ wrapperStyle, setWrapperStyle ] = useState({});
+
+	useEffect(() => {
+		if (isMobile) {
+			setWrapperStyle({
+				padding: page !== '' ? rem(15) : 0,
+				width: page !== '' ? "85%" : 0,
+				boxShadow: page !== '' ? "0 0 15px 5px #4B666B" : "none",
+			})
+		} else {
+			setWrapperStyle({
+				marginLeft: page !== '' ? rem(20) : 0,
+				padding: page !== '' ? rem(15) : 0,
+				width: page !== '' ? rem(800) : 0,
+				boxShadow: page !== '' ? "0 0 15px 5px #4B666B" : "none",
+			})
+		}
+	}, [isMobile, page])
 
 	const buttonStyle = {
 		display: page !== '' ? 'block' : 'none',
