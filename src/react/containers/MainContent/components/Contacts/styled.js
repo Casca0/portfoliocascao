@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-import rem from "../../../../functions/rem";
+import rem from '../../../../functions/rem';
 
 export const ContactsWrapper = styled.section`
 	overflow-y: auto;

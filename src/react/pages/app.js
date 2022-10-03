@@ -1,10 +1,10 @@
-import React, { useState, createContext } from "react";
-import { useMediaQuery } from "react-responsive";
+import React, { useState, createContext } from 'react';
+import { useMediaQuery } from 'react-responsive';
 
-import GlobalStyle from "./styled";
+import GlobalStyle from './styled';
 
-import Menu from "../containers/Menu";
-import MainContent from "../containers/MainContent";
+import Menu from '../containers/Menu';
+import MainContent from '../containers/MainContent';
 
 export const PageContext = createContext({});
 export const ResponsiveContext = createContext({});
@@ -23,7 +23,7 @@ const App = () => {
 				<MainContent />
 			</ResponsiveContext.Provider>
 		</PageContext.Provider>
-	)
-}
+	);
+};
 
 export default App;

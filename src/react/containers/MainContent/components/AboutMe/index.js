@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 import * as S from './styled.js';
 
@@ -19,14 +19,14 @@ const AboutMe = () => {
 			<S.AboutMeContent>
 				Fora isso, sou apaixonado por esportes, pratico vôlei nas horas vagas e matenho uma rotina indo para a academia. Gosto
 				bastante dos meus projetos pessoais também, eles são uma forma de diversão para mim mas acabo aprendendo bastante com eles,
-				tenho varios 'bots' no <u>Discord</u> para usar no servidor que tenho com meus amigos, os bots são desenvolvidos usando
+				tenho varios &quot;bots&quot; no <u>Discord</u> para usar no servidor que tenho com meus amigos, os bots são desenvolvidos usando
 				principalmente <u>JavaScript</u>, um package do Node para interagir com a API do Discord <u>Discord.js</u>, tem também
 				integração com banco de dados com o <u>MongoDB</u> através de outro package, o <u>Mongoose</u>. 
 				Todos esses projetos estão presentes no meu GitHub!
 			</S.AboutMeContent>
 		</S.AboutMeWrapper>
-	)
+	);
 
-}
+};
 
 export default AboutMe;

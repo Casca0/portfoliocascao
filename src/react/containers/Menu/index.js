@@ -1,5 +1,5 @@
-import React, { useContext, useEffect, useState } from "react";
-import { PageContext, ResponsiveContext } from "../../pages/app.js";
+import React, { useContext, useEffect, useState } from 'react';
+import { PageContext, ResponsiveContext } from '../../pages/app.js';
 
 import * as S from './styled.js';
 
@@ -8,25 +8,25 @@ import fotoPerfil from '../../public/fotoPerfil.jpeg';
 const Menu = () => {
 
 	const { page, setPage } = useContext(PageContext);
-	const { isMobile } = useContext(ResponsiveContext)
+	const { isMobile } = useContext(ResponsiveContext);
 
 	const [ style, setStyle ] = useState({});
 
 	const selectedStyle = {
 		background: '#1A2653',
 		boxShadow: '0 0 5px 2px #fff',
-	}
+	};
 
 
 	useEffect(() => {
 		if (isMobile && page !== '') {
 			setStyle({
 				display: 'none',
-			})
+			});
 		} else {
 			setStyle({
 				display: 'flex',
-			})
+			});
 		}
 	}, [isMobile, page]);
 
@@ -45,6 +45,6 @@ const Menu = () => {
 			</S.MenuNav>
 		</S.MenuWrapper>
 	);
-}
+};
 
 export default Menu;

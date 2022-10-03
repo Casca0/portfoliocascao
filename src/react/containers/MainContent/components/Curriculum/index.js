@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 import * as S from './styled.js';
 
@@ -37,8 +37,8 @@ const Curriculum = () => {
 			</ul>
 			<S.CurriculumDownload href={cv} download="Currículo-Lucas_Henrique_Borzani.pdf" target="_blank">Baixar Currículo</S.CurriculumDownload>
 		</S.CurriculumWrapper>
-	)
+	);
 
-}
+};
 
 export default Curriculum;

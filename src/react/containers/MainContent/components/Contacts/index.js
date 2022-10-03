@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 import * as S from './styled.js';
 
@@ -28,8 +28,8 @@ const Contacts = () => {
 				</S.ContactsButton>
 			</S.ContactsButtonWrapper>
 		</S.ContactsWrapper>
-	)
+	);
 
-}
+};
 
 export default Contacts;

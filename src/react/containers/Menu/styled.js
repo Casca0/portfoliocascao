@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import rem from "../../functions/rem";
+import styled from 'styled-components';
+import rem from '../../functions/rem';
 
 export const MenuWrapper = styled.div`
 	display: flex;
