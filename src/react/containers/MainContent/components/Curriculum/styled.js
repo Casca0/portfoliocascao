@@ -21,8 +21,8 @@ export const CurriculumWrapper = styled.section`
 			width: max-content;
 			margin-top: 15px;
 			@media (max-width: 789px) {
-				width: 300px;
-				font-size: ${rem(20)};
+				width: fit-content;
+				font-size: ${rem(18)};
 			}
 		}
 		p {
@@ -32,11 +32,11 @@ export const CurriculumWrapper = styled.section`
 			}
 		}
 		@media (max-width: 789px) {
-			padding-left: 25px;
+			padding-left: 20px;
 		}
 	}
 	@media (max-width: 789px) {
-		height: ${rem(780)};
+		height: 85vh;
 	}
 `;
 

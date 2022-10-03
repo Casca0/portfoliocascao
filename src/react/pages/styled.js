@@ -2,8 +2,6 @@ import { createGlobalStyle } from 'styled-components';
 import rem from '../functions/rem';
 
 const GlobalStyle = createGlobalStyle`
-	@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 	* {
 		color: #fff;
 		font-family: 'Poppins', sans-serif;
@@ -17,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
 	}
 
 	#root {
-		margin-top: ${rem(50)};
+		margin-top: ${rem(30)};
 		display: flex;
 		justify-content: center;
 	}

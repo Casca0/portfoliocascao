@@ -17,7 +17,7 @@ export const AboutMeWrapper = styled.section`
 		border-radius: 10px;
 	}
 	@media (max-width: 789px) {
-		height: ${rem(780)};
+		height: 85vh;
 	}
 `;
 

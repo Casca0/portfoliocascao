@@ -16,10 +16,6 @@ export const ContactsWrapper = styled.section`
 		background: #784284;
 		border-radius: 10px;
 	}
-	@media (max-width: 789px) {
-		min-height: ${rem(530)};
-		max-height: ${rem(780)}
-	}
 `;
 
 export const ContactsTitle = styled.h2`

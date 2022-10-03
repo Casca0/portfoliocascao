@@ -7,8 +7,8 @@ export const MainWrapper = styled.main`
 	background: #4D3A81;
 	border-radius: 5px;
 	transition: all 0.2s ease-in;
-	@media (max-width: 768px) {
-		height: 100%;
+	@media (max-width: 789px) {
+		height: 85vh;
 	}
 `;
 
@@ -27,7 +27,7 @@ export const CloseButton = styled.button`
 	}
 	@media (max-width: 789px) {
 		right: ${rem(40)};
-		top: ${rem(70)};
+		top: ${rem(45)};
 	}
 `;
 
