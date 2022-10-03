@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/portfoliocascao/static/js/main.738cf921.js",
+    "main.js": "/portfoliocascao/static/js/main.c605d3ea.js",
     "static/media/fotoPerfil.jpeg": "/portfoliocascao/static/media/fotoPerfil.4ddf9be4bf2e972dd8a3.jpeg",
     "static/media/LUCAS C.V.pdf": "/portfoliocascao/static/media/LUCAS C.V.e7c146fca280edadf824.pdf",
     "static/media/whatsapp.svg": "/portfoliocascao/static/media/whatsapp.fc5847470bb677e854590c27ce6f399c.svg",
@@ -9,9 +9,9 @@
     "static/media/linkedin.svg": "/portfoliocascao/static/media/linkedin.c2ef956c032965ca4143d28672570d58.svg",
     "static/media/gmail.svg": "/portfoliocascao/static/media/gmail.7e2273441e0a25a442dcca4c7fe65009.svg",
     "static/media/closeIcon.svg": "/portfoliocascao/static/media/closeIcon.d5315e0be0fc29bcfc9828e8514989f0.svg",
-    "main.738cf921.js.map": "/portfoliocascao/static/js/main.738cf921.js.map"
+    "main.c605d3ea.js.map": "/portfoliocascao/static/js/main.c605d3ea.js.map"
   },
   "entrypoints": [
-    "static/js/main.738cf921.js"
+    "static/js/main.c605d3ea.js"
   ]
 }
