@@ -20,7 +20,7 @@ export const CloseButton = styled.button`
 	cursor: pointer;
 	position: absolute;
 	right: ${rem(260)};
-	top: ${rem(80)};
+	top: ${rem(50)};
 	padding: 5px 8px;
 	:hover {
 		box-shadow: 0 0 5px 2px #fff;
