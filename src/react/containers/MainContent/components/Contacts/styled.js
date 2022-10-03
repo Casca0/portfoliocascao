@@ -4,7 +4,7 @@ import rem from "../../../../functions/rem";
 
 export const ContactsWrapper = styled.section`
 	overflow-y: auto;
-	height: ${rem(530)};
+	height: 70vh;
 	::-webkit-scrollbar {
 		width: 10px;
 	}
@@ -20,8 +20,8 @@ export const ContactsWrapper = styled.section`
 
 export const ContactsTitle = styled.h2`
 	text-decoration: underline #fff 1px;
+	margin-top: 0;
 	@media (max-width: 789px) {
-		margin-top: 40px;
 		font-size: ${rem(24)};
 	}
 `;

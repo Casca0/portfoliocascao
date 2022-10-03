@@ -7,26 +7,26 @@ export const MenuWrapper = styled.div`
 	flex-wrap: nowrap;
 	align-items: center;
 	background: #4D3A81;
-	width: ${rem(200)};
-	height: ${rem(530)};
+	width: 14vw;
+	height: 74vh;
 	padding: ${rem(15)};
 	border-radius: 5px;
 	box-shadow: 0 0 20px 5px #4B666B;
 	@media (max-width: 789px) {
-		width: ${rem(300)};
-		height: ${rem(600)};
+		width: 80vw;
+		height: 80vh;
 	}
 `;
 
 export const MenuImage = styled.img`
-	width: ${rem(150)};
-	height: ${rem(150)};
+	width: 10vw;
+	height: 20vh;
 	border-radius: 50%;
 	box-shadow: 0 0 5px #fff;
 	object-fit: cover;
 	@media (max-width: 789px) {
-		width: ${rem(200)};
-		height: ${rem(200)};
+		width: 55vw;
+		height: 25vh;
 	}
 `;
 
@@ -34,7 +34,7 @@ export const MenuName = styled.span`
 	width: max-content;
 	height: max-content;
 	background: #4D3A81;
-	margin-top: ${rem(8)};
+	margin-top: 8px;
 	font-weight: 500;
 	font-size: ${rem(17)};
 	cursor: default;
@@ -60,7 +60,7 @@ export const MenuNav = styled.nav`
 	ul {
 		list-style: none;
 		background: #4D3A81;
-		padding: 10px 0;
+		padding: 0;
 		text-align: center;
 		li {
 			display: flex;
