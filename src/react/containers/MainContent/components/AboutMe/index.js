@@ -17,7 +17,7 @@ const AboutMe = () => {
 				pela área mesmo, estudei muito por conta própria fora da faculdade.
 			</S.AboutMeContent>
 			<S.AboutMeContent>
-				Fora isso, sou apaixonado por esportes, pratico vôlei nas horas vagas e matenho uma rotina indo para a academia. Gosto
+				Fora isso, sou apaixonado por esportes, pratico vôlei nas horas vagas e mantenho rotina indo para a academia. Gosto
 				bastante dos meus projetos pessoais também, eles são uma forma de diversão para mim mas acabo aprendendo bastante com eles,
 				tenho varios &quot;bots&quot; no <u>Discord</u> para usar no servidor que tenho com meus amigos, os bots são desenvolvidos usando
 				principalmente <u>JavaScript</u>, um package do Node para interagir com a API do Discord <u>Discord.js</u>, tem também
