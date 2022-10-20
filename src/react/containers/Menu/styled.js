@@ -11,7 +11,7 @@ export const MenuWrapper = styled.div`
 	height: 74vh;
 	padding: ${rem(15)};
 	border-radius: 5px;
-	box-shadow: 0 0 20px 5px #4B666B;
+	box-shadow: 0 0 20px #4B666B;
 	@media (max-width: 789px) {
 		width: 80vw;
 		height: 80vh;
@@ -25,8 +25,8 @@ export const MenuImage = styled.img`
 	box-shadow: 0 0 5px #fff;
 	object-fit: cover;
 	@media (max-width: 789px) {
-		width: 55vw;
-		height: 25vh;
+		width: 50vw;
+		height: 23vh;
 	}
 `;
 

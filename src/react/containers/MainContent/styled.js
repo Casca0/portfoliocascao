@@ -7,16 +7,16 @@ export const MainWrapper = styled.main`
 	height: 74vh;
 	background: #4D3A81;
 	border-radius: 5px;
-	transition: all 0.2s ease-in;
+	transition: all 0.15s ease-in;
 	@media (max-width: 789px) {
-		height: 85vh;
+		height: 80vh;
 	}
 `;
 
 export const CloseButton = styled.button`
 	background: unset;
 	border: none;
-	transition: all 0.2s ease-in;
+	transition: all 0.15s ease-in;
 	border-radius: 50%;
 	cursor: pointer;
 	padding: 5px 8px;

@@ -5,6 +5,7 @@ import GlobalStyle from './styled';
 
 import Menu from '../containers/Menu';
 import MainContent from '../containers/MainContent';
+import Footer from '../containers/Footer';
 
 export const PageContext = createContext({});
 export const ResponsiveContext = createContext({});
@@ -19,8 +20,11 @@ const App = () => {
 		<PageContext.Provider value={{page, setPage}}>
 			<ResponsiveContext.Provider value={{isMobile, isDesktop}}>
 				<GlobalStyle />
-				<Menu />
-				<MainContent />
+				<div className='main-block'>
+					<Menu />
+					<MainContent />
+				</div>
+				<Footer />
 			</ResponsiveContext.Provider>
 		</PageContext.Provider>
 	);

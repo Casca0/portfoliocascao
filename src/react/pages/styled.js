@@ -9,12 +9,17 @@ const GlobalStyle = createGlobalStyle`
 
 	body {
 		height: 100%;
-		background: linear-gradient(#2F3939, #1E2852, #182141) fixed;
+		background: #1e2852;
 		margin: 0;
 		user-select: none;
 	}
 
 	#root {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.main-block {
 		margin-top: ${rem(30)};
 		display: flex;
 		justify-content: center;

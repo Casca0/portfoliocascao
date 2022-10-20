@@ -20,14 +20,14 @@ const MainContent = () => {
 			setWrapperStyle({
 				padding: page !== '' ? rem(15) : 0,
 				width: page !== '' ? '85%' : 0,
-				boxShadow: page !== '' ? '0 0 15px 5px #4B666B' : 'none',
+				boxShadow: page !== '' ? '0 0 15px #4B666B' : 'none',
 			});
 		} else {
 			setWrapperStyle({
 				marginLeft: page !== '' ? rem(20) : 0,
 				padding: page !== '' ? rem(15) : 0,
-				width: page !== '' ? rem(800) : 0,
-				boxShadow: page !== '' ? '0 0 15px 5px #4B666B' : 'none',
+				width: page !== '' ? '50vw' : 0,
+				boxShadow: page !== '' ? '0 0 15px #4B666B' : 'none',
 			});
 		}
 	}, [isMobile, page]);
@@ -40,9 +40,9 @@ const MainContent = () => {
 	return (
 		<S.MainWrapper style={wrapperStyle}>
 			<S.CloseButton type="button" style={buttonStyle} onClick={() => setPage('')}><S.CloseButtonIcon src={closeIcon} alt="Fechar"/></S.CloseButton>
-			{page === 'Sobre' ? <AboutMe /> : ''}
-			{page === 'Currículo' ? <Curriculum /> : ''}
-			{page === 'Contatos' ? <Contacts /> : ''}
+			{page === 'Sobre' ? <AboutMe /> : null}
+			{page === 'Currículo' ? <Curriculum /> : null}
+			{page === 'Contatos' ? <Contacts /> : null}
 		</S.MainWrapper>
 	);
 };

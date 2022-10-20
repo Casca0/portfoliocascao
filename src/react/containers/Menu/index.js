@@ -17,7 +17,6 @@ const Menu = () => {
 		boxShadow: '0 0 5px 2px #fff',
 	};
 
-
 	useEffect(() => {
 		if (isMobile && page !== '') {
 			setStyle({
